@@ -259,6 +259,7 @@ header .flex {
 .p-b-72 {
   padding-bottom: 72px;
 }
+
 .top-line {
   width: 1440px;
   height: 72px;
@@ -275,7 +276,7 @@ header .flex {
   flex-direction: column;
   gap: 32px;
   flex-shrink: 0;
-  align-items: center;
+  align-items: flex-start;
   border: 1px solid var(--cornflower);
   background: var(--white);
 }
